@@ -1,0 +1,68 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, sans-serif; 
+background-color: #243333; 
+color: white;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+
+/* Основной контент */
+.content {
+flex: 1;
+padding: 60px 50px;
+}
+
+h1 {
+font-size: 24px;
+font-weight: bold;
+margin-bottom: 20px;
+}
+
+.email, .phone {
+font-size: 18px;
+margin-bottom: 15px;
+color: #ffffff;
+}
+
+.social-icons {
+margin-top: 30px;
+display: flex;
+gap: 15px;
+}
+
+.social-icons a {
+text-decoration: none;
+color: white;
+font-size: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 40px;
+height: 40px;
+background-color: rgba(255, 255, 255, 0.1);
+border-radius: 50%;
+}
+
+/* Подвал сайта */
+.footer {
+background-color: #1a2424; /* Более темный цвет для футера */
+padding: 20px 50px;
+display: flex;
+justify-content: space-between;
+font-size: 14px;
+}
+
+.footer-right a {
+color: white;
+text-decoration: none;
+}
+
+
+
