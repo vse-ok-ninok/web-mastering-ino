@@ -1,0 +1,349 @@
+img {
+    height: 72px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 0.2px ;
+}
+
+header {
+    background-image: url("images/header-kit.jpg"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 16px; 
+    padding-bottom: 82px;
+}
+
+body {
+    font-family: Nunito Sans;
+    Font-weight: 600;
+    font-style: SemiBold;
+    font-size: 18px;
+    line-height: 100%;
+    Letter-spacing: 0%;
+}
+
+.header_wrapper {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 49px;
+}
+
+.header-ul {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.header-a {
+    background-color: #696969;
+    color: #FDFDFD;
+    border: 1px #1A3E3E solid;
+    padding: 12px 24px; 
+    border-radius: 4px;
+}
+
+.header-h2 {
+    font-size: 50px;
+    line-height: 150%;
+    letter-spacing: 2%;
+    margin-bottom: 41px;
+}
+
+
+
+.header-form {
+    padding: 40px;
+    background-color: #FFFFFF33;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    backdrop-filter: blur(6px); 
+}
+
+.header-input-label {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+}
+
+input {
+    background: none;
+    border: 1px white solid;
+    border-radius: 8px;
+    padding: 14px 16px;
+}
+
+input::placeholder {
+    color: white;
+    font-family: Nunito Sans;
+    font-weight: 700;
+    font-style: Bold;
+    font-size:16px ;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+.header-button {
+    font-family: Nunito Sans;
+    font-weight: 700;
+    font-style: Bold;
+    font-size:16px ;
+    line-height: 20px;
+    letter-spacing: 1,2%;
+    color: #000000;
+    padding: 16px;
+}
+
+.header-ul-item:hover {
+  color: #a8e4a0;
+  cursor: pointer;
+  border-bottom: 2px #76c16c solid;
+}
+
+.header-ul-item {
+  transition: border-bottom 0.2s;
+}
+
+.header-a:hover {
+  background-color: #90c888;
+  color: #2f4f4f;
+  border: 1px #90c888 solid;
+  padding: 12px 24px;
+  border-radius: 4px;
+  transition: background-color 0.5s;
+}
+
+.header-button:hover {
+  color: #2f4f4f;
+  background-color: #90c888;
+  box-shadow: 2px 2px 6pz rgba(12, 12, 12, 0.562);
+}
+
+.header-button {
+  font-family: Nunito Sans; 
+  font-weight: 700; 
+  font-style: Bold; 
+  font-size: 16px; 
+  line-height: 20px; 
+  letter-spacing: 1.2%; 
+  border-radius: 4px;
+  border: none;
+  padding: 13px 36px;
+  transition: background-color 0.5s;
+}
+
+input:hover {
+  outline: none;
+  cursor: pointer;
+  background-color: #ffffff33;
+}
+
+input:focus {
+  outline: none;
+  background-color: #ffffff33;
+}
+
+@keyframes h2-anim {
+  0%, 100% {
+    text-shadow: 2px 2px 6px rgba(255, 255, 255, 0.89);
+  }
+  25% { 
+    text-shadow: 2px 2px 6px rgba(146, 150, 25, 8.8872);
+  }
+  50% {
+    text-shadow: 2px 2px 6px rgba(154, 43, 43, 0.942);
+  }
+  75% {
+ text-shadow: 2px 2px 6px rgba(37, 97, 129, 0.842);
+  }
+}
+
+.header-h2 {
+  font-size: 50px; 
+  line-height: 150%; 
+  letter-spacing: 2%; 
+  margin-bottom: 41px;
+  animation: h2-anim 5s linear Os infinite;
+  text-shadow: 2px 2px 6px #ffffff8e;
+}
+
+.tour {
+  min-height: 898px;
+  background-color: #edf6f9;
+  text-align: center;
+}
+
+.tour_wrapper { 
+  width: 1180px; 
+  margin: 0 auto;
+}
+
+.photo-item { 
+  height: 400px; 
+  width: 280px;
+  box-shadow: 2px 2px 6px #faeedd;
+  border-radius: 32px;
+  overflow: hidden;
+}
+
+.photo {
+  display: flex;
+  gap: 20px;
+  justify-content: center; 
+  margin-top: 50px; 
+  margin-bottom: 50px;
+}
+
+.lake {
+  background-image: url('https://content3.flowwow-images.com/data/flowers/1000x1000/98/1677961632_1823998.jpg');
+}
+.sunshine {
+  background-image: url('https://img.joomcdn.net/372d2f1fb00b7d7e3e54c953006150141eabdfe4_original.jpeg');
+}
+.mountine {
+  background-image: url('https://dostavkatsvetov.ru/upload/iblock/460/4601cbb2cde59f44606bee1168682463.jpg');
+}
+
+.lake, .mountine, .sunshine {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 32px;
+}
+
+.tour-h5 { 
+  font-style: Regular;
+  font-size: 24px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: #c1876b;
+  padding-top: 80px;
+}
+
+.tour-h3 {
+  font-weight: 800;
+  font-style: ExtraBold;
+  font-size: 32px;
+  line-height: 120%;
+  color: #79553d;
+}
+
+.blind {
+  backdrop-filter: blur(6px);
+  background-color: #FFFFFF33;
+  border-radius: 24px;
+  height: 400px;
+  padding-top: 20px;
+  margin-top: 320px;
+  transition: margin-top 1s ease;
+}
+
+.blind:hover {
+  margin-top: 0px;
+}
+
+.card-title { 
+  display: flex; 
+  justify-content: space-evenly; 
+  padding-bottom: 23px;
+  align-items: center;
+}
+
+.card-h6 {
+  font-size: 18px;
+}
+
+.price {
+  background-color: #FFFFFF4D;
+  padding: 8px 16px; 
+  border-radius: 4px;
+  color: #000000;
+}
+
+.card-p {
+  padding: 0px 25px; 
+  font-size: 14px;
+  text-align: left;
+  color: #000000;
+}
+
+a {
+  color: #363636;
+  cursor: pointer;
+}
+
+.contact-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.contact {
+  background-image: linear-gradient(#edf6f9, #83c5be);
+  padding: 70px 0;
+}
+
+.fio {
+  font-size: 20px;
+}
+
+.link-social {
+  display: flex;
+  gap: 18px;
+}
+
+.link-social>a {
+background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+}
+
+.vk {
+background-image:
+url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/VK_Compact_Logo_%282021-present%29.svg/500px-VK_Compact_Logo_%282021-present%29.svg.png');
+}
+
+.telega {
+background-image:
+url("https://static.vecteezy.com/system/resources/previews/023/741/064/large_2x/telegram-logo-icon-social-media-icon-free-png.png");
+}
+
+.pint {
+background-image:
+url("https://i.pinimg.com/originals/66/a7/b3/66a7b3ecc4273e7c40fe2bc6ac98c5d1.png");
+}
+
+.footer {
+  background-image: linear-gradient(#83c5be, #006d77);
+}
+
+.footer-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+}
