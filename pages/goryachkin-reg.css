@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: aliceblue;
+    font-family: "Montserrat", sans-serif;
+}
+
+form {
+    background-color: rgb(204, 230, 253);
+    width: 400px;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 100px auto;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+button {
+    background-color: rgb(2, 120, 255);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    width: 49%;
+    margin-top: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.reg_part1>label {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.reg_part1>input {
+    margin-bottom: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+.reg_part2 {
+    margin-bottom: 9px;
+    margin-top: 20px;
+}
+
+.reg_part2>label {
+    margin-right: 8px;
+}
+
+.reg_part1>input:hover {
+    background-color: rgb(205, 245, 235);
+}
+
+.reg_part1>input:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: rgb(36, 138, 253);
+    cursor: pointer;
+}
