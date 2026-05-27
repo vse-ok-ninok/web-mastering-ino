@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="safonov-reg.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,
+    100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&dis
+    play=swap" rel="stylesheet">
+</head>
+    <body>
+        <form action="#" method="post">
+
+            <div>                
+                <h1>Регистрация</h1>
+            </div>
+
+            <div class="reg_1">
+
+                <label>Имя:</label>
+                <input type="text" name="user_id" required>
+
+                <label>Номер телефона:</label>
+                <input type="number" name="tel" required>
+
+                <label>Пароль:</label>
+                <input type="password" name="password" required minlength="5">
+
+                <label>Дата рождения:</label>
+                <input type="date" name="date" required>
+            </div>
+
+            <div class="reg_2">
+                <label>Пол:</label>
+            </div>
+
+            <div class="reg_2">
+                <label>Мужской</label><input type="radio" name="gender" required>
+            </div>
+                
+            <div class="reg_2">
+                <label>Женский</label><input type="radio" name="gender" required>
+            </div>
+
+                <button type="submit">
+                    зарегистрироваться
+                </button>
+
+                <button type="reset">
+                   Сбросить
+                </button>
+
+
+        </form>
+    </body>
+</html>

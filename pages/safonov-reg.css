@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(white, rgb(197, 197, 255));
+    height: 1200px;
+}
+
+form {
+    background: linear-gradient(rgb(80, 80, 255), rgb(211, 158, 255));
+    border-radius: 12px;
+    width: 350px;
+    padding: 40px;
+    margin: 50px auto;
+    box-shadow: 3px 3px 3px #00000075;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top:0px;
+}
+
+button {
+    background-color: rgb(2, 120, 255);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 7px;
+    width: 45%;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+
+.reg_1>label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.reg_1>input {
+    margin-bottom: 11px;
+    width: 100%;
+    border-radius: 7px;
+    padding: 8px;
+    border: none;
+}
+
+.reg_2 {
+    margin-bottom: 8px;
+    margin-top: 18px;
+}
+
+.reg_2> label {
+    margin-right: 9px;
+}
+
+.reg_1>input:hover {
+    background-color: rgb(209, 209, 209);
+}
+
+.reg_1>input:focus {
+    outline: none;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.151);
+}
+
+button:hover {
+    background-color: rgb(55, 148, 255);
+}
